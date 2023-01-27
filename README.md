@@ -35,4 +35,4 @@
 
 ### Example
 
-- [Hello World]((/hello-world/src/lib.rs)) : Hello World smart contract example. 
+- [Hello World](/hello-world/src/lib.rs) : Hello World smart contract example. 
