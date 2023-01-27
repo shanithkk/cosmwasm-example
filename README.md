@@ -1,5 +1,5 @@
 # CosmWasm Contract Example
-
+    This Repo is for learn CosmWasm Smart-Contract. 
 ### Setup Environment
 - Install [wasmd](https://github.com/CosmWasm/wasmd) 
 - Configure wasmd with malaga testnet
@@ -33,3 +33,6 @@
   --data '{ "denom": "umlg", "address": "wasm1wukxp2kldxae36rgjz28umqtq792twtxdfe6ux" }' \
   https://faucet.malaga-420.cosmwasm.com/credit
 
+### Example
+
+- [Hello World]((/hello-world/src/lib.rs)) : Hello World smart contract example. 
