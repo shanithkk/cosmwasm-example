@@ -1,5 +1,5 @@
 # CosmWasm Contract Example
-    This Repo is for learn CosmWasm Smart-Contract. 
+This repository contains example for cosmwasm contracts
 ### Setup Environment
 - Install [wasmd](https://github.com/CosmWasm/wasmd) 
 - Configure wasmd with malaga testnet
@@ -36,3 +36,4 @@
 ### Example
 
 - [Hello World](/hello-world/src/lib.rs) : Hello World smart contract example. 
+- [Cross contract call](/cross-contract/src/lib.rs) : Cross contract example for cosmwasm.
