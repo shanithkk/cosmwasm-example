@@ -29,7 +29,7 @@
     ```
     wasmd tx wasm execute \
   <contract_address> \
-  '{ "update": { "message": "Shanith"} }' \
+  '{ "update": { "message": "Shanith K K"} }' \
   --from <wallet_name> --node https://rpc.malaga-420.cosmwasm.com:443 --chain-id malaga-420 --gas-prices 0.05umlg --gas auto --gas-adjustment 1.3
   ```
 - Query the state
