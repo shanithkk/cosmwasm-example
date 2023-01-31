@@ -62,9 +62,9 @@ pub fn update_greeting(
     msg: String,
 ) -> Result<Response, ContractError> {
     STATE.update(deps.storage, |mut state| -> Result<_, ContractError> {
-        if info.sender != state.owner {
-            return Err(ContractError::Unauthorized {});
-        }
+        // if info.sender != state.owner {
+        //     return Err(ContractError::Unauthorized {});
+        // }
         state.greeting_message = format!("Hello {}", msg);
         Ok(state)
     })?;
