@@ -1,6 +1,6 @@
 use cosmwasm_schema::write_api;
 
-use cross_contract::msg::{ExecuteMsg, InstantiateMsg, QueryMsg};
+use cross_contract_call::msg::{ExecuteMsg, InstantiateMsg, QueryMsg};
 
 fn main() {
     write_api! {

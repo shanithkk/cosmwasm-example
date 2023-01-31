@@ -1,6 +1,6 @@
 [package]
-name = "cross-contract"
-version = "0.1.0"
+name = "cross-contract-call"
+version = "0.1.1"
 authors = ["Shanith K K <shanith.kk@hugobyte.com>"]
 edition = "2021"
 
@@ -48,6 +48,7 @@ cw2 = "1.0.1"
 schemars = "0.8.10"
 serde = { version = "1.0.145", default-features = false, features = ["derive"] }
 thiserror = { version = "1.0.31" }
+hello-world = { path = "../hello-world" }
 
 [dev-dependencies]
 cw-multi-test = "0.16.2"
